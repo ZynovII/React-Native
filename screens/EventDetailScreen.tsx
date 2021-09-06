@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet } from 'react-native';
 import { Text, View } from '../components/Themed';
 
-export const PlaceDetailScreen = () => {
+export const EventDetailScreen = () => {
   return (
     <View style={styles.container}>
       <Text>Details of Place</Text>

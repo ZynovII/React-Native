@@ -2,10 +2,10 @@ import React from 'react';
 import { StyleSheet } from 'react-native';
 import { Text, View } from '../components/Themed';
 
-export const NewPlaceScreen = () => {
+export const NewEventScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>New place constructor</Text>
+      <Text>New event constructor</Text>
     </View>
   );
 };

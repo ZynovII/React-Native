@@ -2,10 +2,14 @@ import React from 'react';
 import { StyleSheet } from 'react-native';
 import { Text, View } from '../components/Themed';
 
-export const PlaceListScreen = () => {
+export const EventListScreen = () => {
   return (
-    <View style={styles.container}>
-      <Text>List of Placeces</Text>
+    <View
+      style={styles.container}
+      lightColor="#eee"
+      darkColor="rgba(255,255,255,0.1)"
+    >
+      <Text>List of Events</Text>
     </View>
   );
 };

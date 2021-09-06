@@ -14,8 +14,8 @@ import { ColorSchemeName } from 'react-native';
 
 import ModalScreen from '../screens/ModalScreen';
 import NotFoundScreen from '../screens/NotFoundScreen';
-import { PlaceListScreen } from '../screens/PlaceListScreen';
-import { PlaceDetailScreen } from '../screens/PlaceDetailScreen';
+import { EventListScreen } from '../screens/EventListScreen';
+import { EventDetailScreen } from '../screens/EventDetailScreen';
 import TabOneScreen from '../screens/TabOneScreen';
 import { RootStackParamList } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
@@ -46,12 +46,12 @@ function RootNavigator() {
     <Stack.Navigator>
       <Stack.Screen
         name="Root"
-        component={PlaceListScreen}
+        component={EventListScreen}
         options={{ headerShown: true }}
       />
       <Stack.Screen
         name="Details"
-        component={PlaceDetailScreen}
+        component={EventDetailScreen}
         options={{ headerShown: true }}
       />
       <Stack.Screen
